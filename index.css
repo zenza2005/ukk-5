@@ -1,0 +1,100 @@
+/* Mengatur gaya dasar untuk seluruh halaman */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container utama yang membungkus form */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk judul halaman */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Mengatur tampilan form agar kolom vertikal */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Gaya untuk label input */
+label {
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Gaya untuk input teks dan angka */
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Container untuk tombol-tombol */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Gaya dasar untuk semua tombol */
+.btn {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tombol Hitung */
+.hitung {
+    background-color: #00aaff;
+}
+
+/* Efek hover untuk tombol Hitung */
+.hitung:hover {
+    background-color: #008ecc;
+}
+
+/* Tombol Hapus */
+.hapus {
+    background-color: #ff8800;
+}
+
+/* Efek hover untuk tombol Hapus */
+.hapus:hover {
+    background-color: #e67600;
+}
+
+/* Tombol Reset */
+.reset {
+    background-color: #ff4444;
+}
+
+/* Efek hover untuk tombol Reset */
+.reset:hover {
+    background-color: #cc0000;
+}
+
+/* Gaya untuk hasil perhitungan */
+.hasil {
+    margin-top: 20px;
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-left: 4px solid #00aaff;
+}
